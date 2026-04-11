@@ -1,3 +1,4 @@
+
 Choosing of Method:
 1. Guaranteed Performance (O(log n))
 When you add books to a standard Binary Search Tree (BST) in sorted order (like ISBN 101, 102, 103), the tree gets "skewed" and starts to look like a linked list.
@@ -15,12 +16,12 @@ Your project documentation correctly identifies why other structures fail for a 
 Time Complexity
 
 Operation	Complexity	Explanation
-Search	O(log n)	The tree height is kept at log n, so finding a specific ISBN takes very few steps.
+Search	          O(log n)	            The tree height is kept at log n, so finding a specific ISBN takes very few steps.
 
-Insert	O(log n)	Includes searching for the spot and performing rotations to rebalance.
+Insert	          O(log n)	             Includes searching for the spot and performing rotations to rebalance.
 
-Delete	O(log n)	Includes finding the node, removing it, and rebalancing the tree.
-Display (Inorder)	O(log n)	To print every book in sorted order, the system must visit every single node once.
+Delete	           O(log n)	             Includes finding the node, removing it, and rebalancing the tree.
+Display (Inorder)  O(log n)	            To print every book in sorted order, the system must visit every single node once.
 
 Space Complexity
 The space complexity is divided into the actual storage and the temporary memory used during operations.
