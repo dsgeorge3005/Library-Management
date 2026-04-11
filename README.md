@@ -78,6 +78,8 @@ Because the balance factor is -2 and the new ISBN (30) was inserted into the rig
 30 remains the right child of 20.
 
 The Result: The tree is now a "V" shape instead of a straight line. The height has been reduced from 3 levels to 2 levels.
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/91256dfd-1670-4f83-854b-2aa30e103f49" />
+
 
 <img width="940" height="849" alt="image" src="https://github.com/user-attachments/assets/b8ca09d3-f0a9-4a58-a0a0-db763e8d2e40" />
 <img width="940" height="855" alt="image" src="https://github.com/user-attachments/assets/a149da48-1a9b-484f-bf17-e9a4daa5d9d3" />
