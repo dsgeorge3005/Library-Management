@@ -1,5 +1,6 @@
 
-Choosing of Method:
+**Choosing of Method:
+**
 1. Guaranteed Performance (O(log n))
 When you add books to a standard Binary Search Tree (BST) in sorted order (like ISBN 101, 102, 103), the tree gets "skewed" and starts to look like a linked list.
 The Problem: Searching for a book in a skewed tree takes O(n) time, which is too long for big collections.
