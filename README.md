@@ -42,3 +42,12 @@ o	Right Rotation: Used when the left side is too heavy.
 o	Left-Right / Right-Left Rotations: Used for "zigzag" imbalances.
 7.	Delete: To remove a book, locate the node, remove it, and perform the same height update and rebalancing steps.
 8.	Display: Use Inorder Traversal (Left -> Root -> Right) to print all books in perfectly sorted order.
+
+<img width="940" height="849" alt="image" src="https://github.com/user-attachments/assets/b8ca09d3-f0a9-4a58-a0a0-db763e8d2e40" />
+<img width="940" height="855" alt="image" src="https://github.com/user-attachments/assets/a149da48-1a9b-484f-bf17-e9a4daa5d9d3" />
+<img width="940" height="829" alt="image" src="https://github.com/user-attachments/assets/c31ff53c-4509-4443-b491-dff553fc5778" />
+<img width="940" height="729" alt="image" src="https://github.com/user-attachments/assets/d7e5fcf1-dca1-4909-83a2-44d70a2255e6" />
+
+
+
+
