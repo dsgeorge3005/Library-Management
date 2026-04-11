@@ -43,6 +43,42 @@ o	Left-Right / Right-Left Rotations: Used for "zigzag" imbalances.
 7.	Delete: To remove a book, locate the node, remove it, and perform the same height update and rebalancing steps.
 8.	Display: Use Inorder Traversal (Left -> Root -> Right) to print all books in perfectly sorted order.
 
+**We will insert these ISBNs in order: 10, 20, and 30.
+**
+**Step 1: Insert ISBN 10
+**The tree is empty, so 10 becomes the root.
+
+Balance Factor: 0
+
+Status: Perfectly balanced.
+
+**Step 2: Insert ISBN 20
+**Since 20 is greater than 10, it goes to the right.
+
+Height of 10: 2
+
+Balance Factor of 10: (Height Left: 0) - (Height Right: 1) = -1
+
+Status: Still balanced (within the -1 to 1 range).
+
+**Step 3: Insert ISBN 30 (The Imbalance)
+**Since 30 is greater than 10 and 20, it goes to the right of 20.
+
+Balance Factor of 10: (Left: 0) - (Right: 2) = -2 * Status: UNBALANCED.
+
+Because the balance factor is -2 and the new ISBN (30) was inserted into the right child's right subtree, your code identifies this as a Right-Right (RR) Case.
+
+**Step 4: The Rotation (The Fix)
+**Your code triggers leftRotate(node) on the root (10):
+
+20 moves up to become the new root.
+
+10 moves down to become the left child of 20.
+
+30 remains the right child of 20.
+
+The Result: The tree is now a "V" shape instead of a straight line. The height has been reduced from 3 levels to 2 levels.
+
 <img width="940" height="849" alt="image" src="https://github.com/user-attachments/assets/b8ca09d3-f0a9-4a58-a0a0-db763e8d2e40" />
 <img width="940" height="855" alt="image" src="https://github.com/user-attachments/assets/a149da48-1a9b-484f-bf17-e9a4daa5d9d3" />
 <img width="940" height="829" alt="image" src="https://github.com/user-attachments/assets/c31ff53c-4509-4443-b491-dff553fc5778" />
