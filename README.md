@@ -1,5 +1,5 @@
 # AVL Tree Library Management
-Collaborators: Mohamed Afraz, Aatreya Mohana Sundaram Dave Shejo George
+Collaborators: Mohamed Afraz, Aatreya Mohana Sundaram, Dave Shejo George
 
 ## 📚 Overview
 
